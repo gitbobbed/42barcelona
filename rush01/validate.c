@@ -38,7 +38,7 @@ int	ft_validate_input(char *input)
 			count++;
 		i++;
 	}
-	if (count == 16)
+	if (count == SIZE * 4)
 		return (1);
 	else
 		return (0);

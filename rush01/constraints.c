@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 18:57:20 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/10/27 19:16:02 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/10/27 21:40:26 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ int	check_left_view(int board[SIZE][SIZE], int row)
 		}
 		col++;
 	}
-	if (visible_count == get_left_view(row))
+	if (visible_count == get_left_view(board, row))
 		return (1);
 	return (0);
 }
@@ -84,7 +84,7 @@ int	check_right_view(int board[SIZE][SIZE], int row)
 		}
 		col--;
 	}
-	if (visible_count == get_right_view(row))
+	if (visible_count == get_right_view(board, row))
 		return (1);
 	return (0);
 }

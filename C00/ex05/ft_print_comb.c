@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 20:16:09 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/10/21 22:04:22 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/10/21 22:54:00 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -50,9 +50,4 @@ void	ft_print_comb(void)
 		}
 		c++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb();
 }

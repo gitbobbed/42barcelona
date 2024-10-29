@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 20:46:33 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/10/21 22:19:52 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/10/21 22:55:07 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,4 @@ void	ft_print_combn(int n)
 
 	if (n > 0 && n < 10)
 		ft_print_comb_recursive(n, '0', result, 0);
-}
-
-int	main(void)
-{
-	ft_print_combn(7);
 }

@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 20:12:44 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/10/21 21:46:21 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/10/21 22:52:12 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,4 @@ void	ft_print_alphabet(void)
 		write(1, &l, 1);
 		l++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_alphabet();
 }

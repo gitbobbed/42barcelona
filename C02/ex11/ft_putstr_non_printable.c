@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 23:14:16 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/11/03 00:39:16 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/11/02 22:56:07 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,20 +37,18 @@ void	ft_putstr_non_printable(char *str)
 		i++;
 	}
 }
-
+/*
 int	main(void)
 {
-	char	*ascii;
-	int	i;
-	
-	i = 0;
-	ascii = "assdfsfgfdgdslfkgjsdlkfj";
-	while (i < 32)
-	{
-		ascii[i] = i;
-		ft_putstr_non_printable(&ascii[i]);
-		ft_putchar('\n');
-		i++;
-	}
-	return (0);
+	char	*str0;
+	char	*str1;
+	char	*str2;
+
+	str0 = "Hello\nWorld";
+	str1 = "T\tabc";
+	str2 = "\\";
+	ft_putstr_non_printable(str0);
+	ft_putstr_non_printable(str1);
+	ft_putstr_non_printable(str2);
 }
+*/

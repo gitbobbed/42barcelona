@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 20:17:57 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/11/03 20:21:01 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/11/04 20:50:48 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_putstr(char *str)
 {
 	int	i;
-	
+
 	i = 0;
 	while (str[i])
 	{

@@ -6,7 +6,7 @@
 /*   By: dpereir2 <dpereir2@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 21:50:28 by dpereir2          #+#    #+#             */
-/*   Updated: 2024/11/05 22:13:16 by dpereir2         ###   ########.fr       */
+/*   Updated: 2024/11/06 14:33:29 by dpereir2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_atoi(char *str)
@@ -51,16 +51,16 @@ int main() {
     char *test9 = "abcd123";  // Edge case: invalid characters before number
 	char *test10 = "+";
 
-    printf("Test 1 (\"123\"): %d\n", ft_atoi(test1));     // Expected output: 123
-    printf("Test 2 (\"-456\"): %d\n", ft_atoi(test2));    // Expected output: -456
-    printf("Test 3 (\"0\"): %d\n", ft_atoi(test3));       // Expected output: 0
-    printf("Test 4 (\"+  789\"): %d\n", ft_atoi(test4));    // Expected output: 6789
-    printf("Test 5 (\"+000123\"): %d\n", ft_atoi(test5));    // Expected output: 123
-    printf("Test 6 (\"     +12 34\"): %d\n", ft_atoi(test6));    // Expected output: 12
-    printf("Test 7 (\"++123\"): %d\n", ft_atoi(test7));    // Expected output: 123
-    printf("Test 8 (\"+-123\"): %d\n", ft_atoi(test8));    // Expected output: 1232
-    printf("Test 9 (\"abcd123\"): %d\n", ft_atoi(test9)); // Expected output: undefined behavior or 0
-    printf("Test 10 (\"+\"): %d\n", ft_atoi(test10));    // Expected output: 0
+    printf("Test 1 (\"123\"): %d\n", ft_atoi(test1));    
+    printf("Test 2 (\"-456\"): %d\n", ft_atoi(test2)); 
+    printf("Test 3 (\"0\"): %d\n", ft_atoi(test3));    
+    printf("Test 4 (\"+  789\"): %d\n", ft_atoi(test4));
+    printf("Test 5 (\"+000123\"): %d\n", ft_atoi(test5));
+    printf("Test 6 (\"     +12 34\"): %d\n", ft_atoi(test6));
+    printf("Test 7 (\"++123\"): %d\n", ft_atoi(test7));   
+    printf("Test 8 (\"+-123\"): %d\n", ft_atoi(test8));  
+    printf("Test 9 (\"abcd123\"): %d\n", ft_atoi(test9));
+    printf("Test 10 (\"+\"): %d\n", ft_atoi(test10));   
 
     return 0;
 }
